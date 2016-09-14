@@ -2,7 +2,7 @@
 package best.solution;
 
 
-public class Cactus extends Succulent {
+public class Cactus implements Succulent {
     @Override
     public final void absorbSunlight() {
         //flex leaves, turn toward sun
